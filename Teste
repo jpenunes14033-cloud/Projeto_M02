@@ -1,2 +1,21 @@
 
 git init
+
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+
+.import/
+.export/
+
+git add .
+git commit -m "primeiro commit"
+git branch -M main
+git push -u origin main
+
+git pull
+
+git add .
+git commit -m "descreva o que fez"
+git push
+
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+
